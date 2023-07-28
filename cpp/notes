@@ -1,0 +1,36 @@
+class : class is a way to bind data and meathods together 
+        class is a way to hide data & meathods
+        Syntax :
+
+            class <name>{
+                private:                    Not Accessible by object
+
+                protected:                  Accessible by relative class
+
+                public:                     Accessible by object
+
+            }
+        new class instance :
+            className object;
+
+        accessing non-private data or meathods :
+            object.data/meathod;
+______________________________________________________________________________
+
+new :   This operator or Keyword is used for allocating memory Dynamically.
+        After allocating memory it returns address of that memory.
+
+        syntax : 
+            class *pointer;
+            pointer = new datatype;
+            pointer = new sizeof(datatype);
+______________________________________________________________________________
+
+delete: This operator is used for deallocating memory which is allocated by 'new' operator.
+        syntax :
+            delete pointer;
+______________________________________________________________________________
+
+Multiple Inheritence : 
+    whenever 2 or more than 2 base class are used to create a base class then the type of inheritence id known as multiple inheritance.
+
